@@ -1,0 +1,1 @@
+import{Ra as n,eb as o,fb as s,pb as i}from"./chunk-LHL5FGMS.js";var a=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-website"]],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),i(1,"website works!"),s())},encapsulation:2})};export{a as WebsiteComponent};

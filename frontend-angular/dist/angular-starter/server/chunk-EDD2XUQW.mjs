@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{a,b as s}from"./chunk-S6KH3LOX.mjs";var e={name:"ChooseUrlook",nameUC:"CHOOSEURLOOK",logo:"chooseurlook",network:"chooseurlook",website:"www.chooseurlook.com"},o={name:"angular-starter",angular:"Angular 19.2.9",bootstrap:"Bootstrap 5.3.5",fontawesome:"Font Awesome 6.7.2"};var r={appInfo:e,application:s(a({},o),{angular:`${o.angular} PROD`}),urlNews:"./assets/params/json/mock/trailers.json",urlMovies:"./assets/params/json/mock/movies.json",useDatabase:!1,backend:"http://localhost:3000"};export{r as a};
