@@ -6,6 +6,7 @@ export const appInfo = {
   logo: 'chooseurlook',
   network: 'chooseurlook',
   website: 'www.chooseurlook.com',
+  appVer : '1.202518.0'
 };
 
 export const applicationBase = {

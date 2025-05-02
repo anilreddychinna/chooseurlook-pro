@@ -64,30 +64,15 @@ export class HomeComponent {
       description: "Cascade Cards",
       link: '/cards'
     },
-    {
-      icon: "fa-brands fa-bootstrap",
-      name: "bootstrap",
-      description: "UI and components",
-      link: '/bootstrap'
-    },
+  
     {
       icon: "fa-sharp fa-solid fa-newspaper",
       name: "News",
       description: "Trailers and youtube",
       link: '/news'
     },
-    {
-      icon: "fa-solid fa-chart-simple",
-      name: "Boxoffice",
-      description: "Movies boxoffice",
-      link: '/boxoffice'
-    },
-    {
-      icon: "fa-solid fa-blender-phone",
-      name: "Services",
-      description: "angular Services",
-      link: '/services'
-    },
+  
+  
     {
       icon: "fa-solid fa-screwdriver-wrench",
       name: "Components",
@@ -100,18 +85,8 @@ export class HomeComponent {
       description: "Httpclient library",
       link: '/httpclient'
     },
-    {
-      icon: "fa-regular fa-rectangle-list",
-      name: "forms",
-      description: "Reactive & Template",
-      link: '/forms'
-    },
-    {
-      icon: "fa-solid fa-spell-check",
-      name: "Prism",
-      description: "Syntax highlighter",
-      link: '/prism'
-    },
+ 
+    
   ]
 
   constructor(private seoService: SeoService) {

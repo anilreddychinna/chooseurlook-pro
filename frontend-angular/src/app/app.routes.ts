@@ -6,20 +6,13 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 export const routes: Routes = [
  // { path: '', component: HomeComponent, },
 
+   { path: 'home', component: HomeComponent, },
+
   { path: '', 
     loadComponent: () => import('./modules/examples/example-cards/tutorial.component')
-      .then(mod => mod.TutorialComponent) },
+      .then(mod => mod.TutorialComponent) 
+    },
 
-  {
-    path: 'prism',
-    loadComponent: () => import('./modules/examples/example-prism/tutorial.component')
-      .then(mod => mod.TutorialComponent)
-  },
-  {
-    path: 'landing-page',
-    loadComponent: () => import('./modules/examples/example-landing-page/tutorial.component')
-      .then(mod => mod.TutorialComponent)
-  },
   {
     path: 'cards',
     loadComponent: () => import('./modules/examples/example-cards/tutorial.component')
@@ -40,21 +33,17 @@ export const routes: Routes = [
     loadComponent: () => import('./modules/examples/example-items/items.component')
       .then(mod => mod.ItemsComponent)
   },
-  {
-    path: 'bootstrap',
-    loadChildren: () => import(`./modules/examples/example-bootstrap/tutorial.routes`)
-      .then(routes => routes.routes)
-  },
+  // {
+  //   path: 'bootstrap',
+  //   loadChildren: () => import(`./modules/examples/example-bootstrap/tutorial.routes`)
+  //     .then(routes => routes.routes)
+  // },
   {
     path: 'components',
-    loadComponent: () => import('./modules/examples/example-components/tutorial.component')
+    loadComponent: () => import('./modules/examples/example-components/tutorial.component') 
       .then(mod => mod.TutorialComponent)
   },
-  {
-    path: 'forms',
-    loadChildren: () => import(`./modules/examples/example-forms/tutorial.routes`)
-      .then(routes => routes.routes)
-  },
+ 
   {
     path: 'services',
     loadComponent: () => import('./modules/examples/example-services/tutorial.component')
